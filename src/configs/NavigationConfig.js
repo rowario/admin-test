@@ -35,7 +35,7 @@ const dashBoardNavTree = [
                 icon: SettingOutlined,
                 submenu: [
                     {
-                        key: "user-list",
+                        key: "placement",
                         path: `${APP_PREFIX_PATH}/placement`,
                         title: "Карта заведения",
                         submenu: [],
