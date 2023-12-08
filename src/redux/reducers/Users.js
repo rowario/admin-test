@@ -9,7 +9,7 @@ const initState = {
     data: [],
 };
 
-const auth = (state = initState, action) => {
+const users = (state = initState, action) => {
     switch (action.type) {
         case SHOW_LOADING:
             return {
@@ -32,4 +32,4 @@ const auth = (state = initState, action) => {
     }
 };
 
-export default auth;
+export default users;
