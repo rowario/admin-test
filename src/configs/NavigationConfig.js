@@ -37,7 +37,7 @@ const dashBoardNavTree = [
                     {
                         key: "placement",
                         path: `${APP_PREFIX_PATH}/placement`,
-                        title: "Карта заведения",
+                        title: "Планировщик",
                         submenu: [],
                     },
                 ],
