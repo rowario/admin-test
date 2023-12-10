@@ -97,7 +97,6 @@ const Placement = (props) => {
 		deleteAllItems();
 	};
 
-
 	// i'd like to move import/export to own service
 	const handleImport = (file) => {
 		setIsImportLoading(true);
@@ -188,6 +187,7 @@ const Placement = (props) => {
 						</Col>
 						<Col xs={4}>
 							<Upload
+								className="import-button-wrapper"
 								multiple={false}
 								showUploadList={false}
 								accept="application/json"
